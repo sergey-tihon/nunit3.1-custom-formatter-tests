@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpOnly.Tests", "src\FSharpOnly.Tests\FSharpOnly.Tests.fsproj", "{B4FD240A-B3DF-4FBF-9A4C-6A56FD6E3772}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpWithFormatter.Tests", "src\FSharpWithFormatter.Tests\FSharpWithFormatter.Tests.fsproj", "{4E734D67-5F8C-49E5-9978-10CA8D3ABF12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4FD240A-B3DF-4FBF-9A4C-6A56FD6E3772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4FD240A-B3DF-4FBF-9A4C-6A56FD6E3772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4FD240A-B3DF-4FBF-9A4C-6A56FD6E3772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4FD240A-B3DF-4FBF-9A4C-6A56FD6E3772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E734D67-5F8C-49E5-9978-10CA8D3ABF12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E734D67-5F8C-49E5-9978-10CA8D3ABF12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E734D67-5F8C-49E5-9978-10CA8D3ABF12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E734D67-5F8C-49E5-9978-10CA8D3ABF12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
