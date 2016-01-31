@@ -1,3 +1,9 @@
 source https://nuget.org/api/v2
 
 nuget FAKE
+
+source https://ci.appveyor.com/nuget/nunit
+
+nuget NUnit 3.1.0-CI-2080
+nuget NUnit.Console 3.1.0-CI-2080
+
