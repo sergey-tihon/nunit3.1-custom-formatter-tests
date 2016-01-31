@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{A2F3F3E6
 		paket.lock = paket.lock
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Tests", "src\CSharp.Tests\CSharp.Tests.csproj", "{78CC77FC-BEB1-404A-8EB4-A744B7FB04FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{4E734D67-5F8C-49E5-9978-10CA8D3ABF12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E734D67-5F8C-49E5-9978-10CA8D3ABF12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E734D67-5F8C-49E5-9978-10CA8D3ABF12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78CC77FC-BEB1-404A-8EB4-A744B7FB04FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78CC77FC-BEB1-404A-8EB4-A744B7FB04FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78CC77FC-BEB1-404A-8EB4-A744B7FB04FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78CC77FC-BEB1-404A-8EB4-A744B7FB04FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
