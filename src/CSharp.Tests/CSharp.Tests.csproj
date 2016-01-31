@@ -7,8 +7,8 @@
     <ProjectGuid>{78CC77FC-BEB1-404A-8EB4-A744B7FB04FE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CSharp</RootNamespace>
-    <AssemblyName>CSharp</AssemblyName>
+    <RootNamespace>CSharp.Tests</RootNamespace>
+    <AssemblyName>CSharp.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
