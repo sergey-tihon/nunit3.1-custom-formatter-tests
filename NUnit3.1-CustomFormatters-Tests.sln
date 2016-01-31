@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{A2F3F3E6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp.Tests", "src\CSharp.Tests\CSharp.Tests.csproj", "{78CC77FC-BEB1-404A-8EB4-A744B7FB04FE}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsUnitLight", "src\FsUnitLight\FsUnitLight.fsproj", "{9B1D4A71-32B9-4420-9CD6-729A2345FF77}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsharpWithFsUnitLight.Tests", "src\FsharpWithFsUnitLight\FsharpWithFsUnitLight.Tests.fsproj", "{6EB3C634-07D9-46E7-BB8D-4D30FEC67796}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,14 @@ Global
 		{78CC77FC-BEB1-404A-8EB4-A744B7FB04FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78CC77FC-BEB1-404A-8EB4-A744B7FB04FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78CC77FC-BEB1-404A-8EB4-A744B7FB04FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B1D4A71-32B9-4420-9CD6-729A2345FF77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B1D4A71-32B9-4420-9CD6-729A2345FF77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B1D4A71-32B9-4420-9CD6-729A2345FF77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B1D4A71-32B9-4420-9CD6-729A2345FF77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EB3C634-07D9-46E7-BB8D-4D30FEC67796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB3C634-07D9-46E7-BB8D-4D30FEC67796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB3C634-07D9-46E7-BB8D-4D30FEC67796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB3C634-07D9-46E7-BB8D-4D30FEC67796}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
