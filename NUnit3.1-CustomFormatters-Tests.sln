@@ -7,6 +7,14 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpOnly.Tests", "src\FSh
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpWithFormatter.Tests", "src\FSharpWithFormatter.Tests\FSharpWithFormatter.Tests.fsproj", "{4E734D67-5F8C-49E5-9978-10CA8D3ABF12}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{A2F3F3E6-8668-4799-8000-FD6F64CAC332}"
+	ProjectSection(SolutionItems) = preProject
+		build.cmd = build.cmd
+		build.fsx = build.fsx
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
