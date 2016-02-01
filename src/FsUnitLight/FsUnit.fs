@@ -15,8 +15,8 @@ open NUnit.Framework.Constraints
 //
 [<AutoOpen>]
 module TopLevelOperators =
-    //do GlobalSettings.AddFormatter(
-    //     ValueFormatterFactory(fun _ -> ValueFormatter(sprintf "%A")))
+    do TestContext.AddFormatter(
+         ValueFormatterFactory(fun _ -> ValueFormatter(sprintf "%A")))
 
     let Null = NullConstraint()
 
@@ -35,6 +35,7 @@ module TopLevelOperators =
     let unique = UniqueItemsConstraint()
 
     let should (f : 'a -> #Constraint) x (y : obj) =
+        Null |> ignore // force the one-time init
         let c = f x
         let y =
             match y with
